@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Particle Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <div id="particles-js">
+        <div class="main-div container">
+            <div class="wrapper">
+                <h1 class="heading">
+                    Test your knowledge in JavaScript
+                </h1>
+
+                <form>
+                    <div class="aligning-radios">
+                        <ul>
+                            <li><input type="radio" name="q1" id="q1" value="&lt;javascript&gt;">
+                            <label id="label1" for="q1">&lt;javascript&gt;</label></li>
+
+                            <li><input type="radio" name="q1" id="q2" value="&lt;scripting&gt;">
+                            <label id="label2" for="q2">&lt;scripting&gt;</label></li>
+
+                          <li><input type="radio" name="q1" id="q3" value="&lt;script&gt;">
+                            <label id="label3" for="q3">&lt;script&gt;</label></li>
+
+                          <li><input type="radio" name="q1" id="q4" value="&lt;js&gt;">
+                            <label id="label4" for="q4">&lt;js&gt;</label></li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+            <button class="btn btn-lg wider">Start</button>
+
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'particles.json', function () { console.log('particles.json loaded...') })
+    </script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+</body>
+
+</html>

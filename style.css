@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro&display=swap');
+
+body{
+    margin: 0;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    color: rgb(0, 11, 49);
+}
+
+#particles-js{
+    height: 327px;
+}
+
+h3{
+    padding-top: 100px;
+}
+.particles-js-canvas-el{
+    position: absolute;
+    top: 0%;
+    bottom: 0;
+    width: 100% !important;
+    height: 327px !important;
+    opacity: 1;
+    background:rgb(90, 24, 144);
+
+    z-index: -1;
+}
+
+.main-div{
+    text-align: center;
+    
+}
+
+.container{
+    background:rgb(90, 24, 144);
+    opacity: 0.9;
+    height: inherit;
+    width: 60%;
+}
+.heading{
+    margin: 0 auto 50px auto;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.wider{
+    padding: 10px 30px 10px 30px;
+    background-color: aquamarine;
+    margin-bottom: 30px;
+}
+.btn{
+    margin-bottom: 30px;
+}
+
+
+.wider:hover{
+    background-color:rgb(96, 148, 76);
+    transition: all 1s;
+}
+.aligning-radios{
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.aligning-radios input, .aligning-radios label{
+    display: block;
+    padding: 10px;
+}
+.wrapper{
+    width: fit-content;
+    margin: 0 auto;
+    text-align: left;
+    opacity: 1 !important;
+}
+
+form{
+    display: none;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    width: fit-content;
+}
+
+li{
+    display: flex;
+}
+
+
+@media (max-width: 575px)
+{
+    *{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (width:414px){
+     .heading{
+        font-size: 10px;
+    }
+}
